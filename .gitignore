@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Week8/obj/Debug
+/Week8/bin/Debug
+/Repository/obj/Debug
+/Repository/bin/Debug
+/.vs

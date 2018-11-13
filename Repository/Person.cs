@@ -27,15 +27,28 @@ namespace Repository
 
         [DataMember]
         public long Id { get; set; }
+
         [DataMember]
         public string FirstName { get; set; }
+
         [DataMember]
         public string LastName { get; set; }
+
         [DataMember]
         public Gender Gender { get; set; }
+
         [DataMember]
         public DateTime BirthDate { get; set; }
+
         [DataMember]
         public IList<Post> Posts { get; set; }
+
+        public string GenderAsString
+        {
+            get
+            {
+                return Gender == Gender.F ? "Female" : "Male";
+            }
+        }
     }
 }
